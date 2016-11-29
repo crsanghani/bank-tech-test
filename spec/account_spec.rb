@@ -4,6 +4,9 @@ describe Account do
 
   let(:account) {Account.new}
 
+  before :each do
+    @account = Account.new
+  end
   it 'can return a balance' do
     expect(account.balance).to eq 0
   end

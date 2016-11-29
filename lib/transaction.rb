@@ -1,5 +1,3 @@
 class Transaction
 
-  
-
 end
