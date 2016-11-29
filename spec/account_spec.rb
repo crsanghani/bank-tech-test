@@ -7,7 +7,7 @@ describe Account do
   end
 
   it 'can return a balance' do
-    expect(@account.balance).to eq(0)
+    expect(@account.balance).to eq 0
   end
 
 end
